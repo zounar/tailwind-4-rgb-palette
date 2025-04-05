@@ -24,7 +24,7 @@ To do so, you need to import each Tailwind layer
 separately ([reference](https://github.com/tailwindlabs/tailwindcss/discussions/13188#discussioncomment-8737721)).
 Combined with the RGB palette, the whole import stack should look like so:
 
-```
+```css
 @import 'tailwindcss/theme';
 @import './palette-rgb.css';
 @import 'tailwindcss/preflight';
